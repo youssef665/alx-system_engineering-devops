@@ -1,2 +1,2 @@
 #!/bin/bass
-uniq -u | sort
+sort | uniq -u
