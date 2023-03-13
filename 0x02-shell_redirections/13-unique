@@ -1,2 +1,2 @@
-#!/bin/bass
-sort | uniq -u
+#!/bin/bash
+uniq -u | sort
