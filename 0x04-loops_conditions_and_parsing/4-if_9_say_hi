@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 times
+# but for the 9th iteration, displays Best School
+
+
+j="0"
+while [ $j -lt 10 ]
+do
+
+echo "Best School"
+if [ $j -eq 8 ]
+then echo "Hi"
+
+fi
+j=$((j+1))
+done

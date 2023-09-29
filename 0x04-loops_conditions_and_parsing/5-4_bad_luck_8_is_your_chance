@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 20 and
+# displays 4 and then bad luck from China for the 4th loop
+
+j="0"
+while [ $j -lt 10 ]
+do
+if [ $j -eq 3 ];
+then
+    echo "bad luck"
+elif [ $j -eq 7 ];
+then
+    echo "good luck"
+else
+    echo "Best School"
+fi
+j=$((j+1))
+done
