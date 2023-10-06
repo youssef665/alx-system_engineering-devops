@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Show  IPs
+# show  IPs
 
 ifconfig | grep "inet " | tr ":" " " | awk '{print $3}'
